@@ -1,0 +1,64 @@
+/*criei a pasta do design para deixar mais organizado*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000042;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: "Barlow", sans-serif;
+    color: #ECDE9E;
+    font-size: 4rem;
+    margin-bottom: 3%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    background-color: #61C285;
+    color: #000042;
+    border: #004219 2px solid;
+    font-family: "Playfair Display", serif;
+    font-size: 1.3rem;
+    margin-bottom: 2%;
+}
+button{
+    background-color: #99504C;
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    border: #420300 2px solid;
+    margin-bottom: 5%;
+}
+button:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+h2{
+    font-family: "Playfair Display", serif;
+    color: #ECDE9E;
+    font-size: 4rem;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}
+img{
+    width: 300px;
+    margin: 0.6%;
+    margin-bottom: 1%;
+    border-radius: 3%;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
